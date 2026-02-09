@@ -1,5 +1,5 @@
 class RandomNumberSetter {
-    public static int RandomNumberSetting() {
-        return (int) (Math.random()*100);
+    public static int generateRandomNumber() {
+        return (int) (Math.random()*100) + 1;
     }
 }

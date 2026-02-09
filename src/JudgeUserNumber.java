@@ -1,5 +1,5 @@
 public class JudgeUserNumber {
-    public static boolean JudgeUserNumber(int ComputerNumber, int UserNumber) {
+    public static boolean isCorrect(int ComputerNumber, int UserNumber) {
         if (ComputerNumber == UserNumber) {
             System.out.println("right!");
             return true;
